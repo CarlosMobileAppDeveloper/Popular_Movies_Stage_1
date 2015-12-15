@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_preference">Preferences</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_movie_details">Movie Details</string>
+    <string name="vote_rating_scale">/10</string>
+    <string name="toast_message_loading_movies_failed">Error: Could not retrieve movie data.</string>
+
+    <!-- Preferences -->
+    <string name="pref_movie_sort_title">Sort Preference</string>
+    <string name="pref_movie_sort_key" translatable="false">movieSortPrefernce</string>
+    <string-array name="movie_sort_options_list_array">
+        <item>Most Popular</item>
+        <item>Highest Rating</item>
+    </string-array>
+    <string-array name="movie_sort_options_values_array">
+        <item>popularity.desc</item>
+        <item>vote_average.desc</item>
+    </string-array>
+
+    <!-- Movie Poster Values - poster size values - "w92", "w154", "w185", "w342", "w500", "w780", or "original". -->
+    <string name="movie_poster_base_url">http://image.tmdb.org/t/p/</string>
+    <string name="movie_poster_size_phone_default">w185</string>
+    <string name="movie_poster_size_tablet_default">w342</string>
+
+    <!-- Movie DB API values -->
+    <string name="movie_db_api_url_scheme">http</string>
+    <string name="movie_db_api_domain">api.themoviedb.org</string>
+    <string name="movie_db_api_version">3</string>
+    <string name="movie_db_api_action_type_discover">discover</string>
+    <string name="movie_db_api_search_type_movie">movie</string>
+    <string name="movie_db_api_query_parameter_sort">sort_by</string>
+    <string name="movie_db_api_query_parameter_api_key">api_key</string>
+    <string name="movie_db_api_sort_by_popularity_desc">popularity.desc</string>
+    <string name="movie_db_api_sort_by_vote_average_desc">vote_average.desc</string>
+
+    <string name="movie_db_api_genre_list_url">http://api.themoviedb.org/3/genre/movie/list</string>
+
+
+
+</resources>
